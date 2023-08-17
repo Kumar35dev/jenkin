@@ -18,6 +18,6 @@ public class SpringController {
     }
     @GetMapping("/Message")
     public String postMedssage(){
-        return "lkijuhygtfrd";
+        return "lkietyrteghrterjuhygtfrd";
     }
 }
