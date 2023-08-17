@@ -16,4 +16,8 @@ public class SpringController {
     public String postMessage(){
         return "hello world2";
     }
+    @GetMapping("/Message")
+    public String postMedssage(){
+        return "hello world2";
+    }
 }
