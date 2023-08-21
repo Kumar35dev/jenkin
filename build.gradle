@@ -21,7 +21,12 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
-
+sonarqube {
+    properties {
+        property 'sonar.host.url', 'http://localhost:9000'
+        property 'sonar.projectKey', 'sonar-jenkins'
+    }
+}
 war {
 	enabled = true
 	archiveBaseName = 'spring'
